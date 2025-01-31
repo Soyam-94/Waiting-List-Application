@@ -7,24 +7,23 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #f3f3f3!important;
 }
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
-.waitlist-block{
-  width: 850px;
-  background: #fff;
-  margin: 0 auto;
-  padding: 24px 36px;
-  border-radius: 8px;
-}
+code {font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;}
+.waitlist-block{ width: 850px; background: #fff; margin: 0 auto;  padding: 24px 36px; border-radius: 8px;}
 .form-group{text-align: left;margin-bottom: 16px}
 .form-group label{font-weight: 600;margin-bottom: 8px;}
 .form-group button{padding: 8px 16px;}
 .form-group .join-btn{padding: 8px 16px;}
-.waitlist-block ul{
-  list-style-type: disclosure-closed;
-  padding: 0 16px;
-}
+.waitlist-block ul{ list-style-type: disclosure-closed; padding: 0 16px;}
 .messege-box{text-align: center; font-weight: 550;}
+.pagination{display: flex;justify-content: end;}
+
+@media screen and (max-width: 768px) {
+  .waitlist-block{
+    width: 100%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .waitlist-block{
+    width: 100%;
+  }
+}

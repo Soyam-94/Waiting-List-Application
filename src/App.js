@@ -4,7 +4,6 @@ import Layout from './components/Layout';
 import WaitingList from './components/WaitingList';
 import WaitingListStatus from './components/WaitingListStatus';
 import 'bootstrap/dist/css/bootstrap.min.css';
-e
 const initialState = {
   waitingList: [],
 };
